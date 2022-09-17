@@ -6,9 +6,8 @@ def sorting(input_list):
     while n < len(input_list):
         for i, el in enumerate(input_list):
             if el > input_list[n]:
-                b = input_list[n]
+                input_list[i] = input_list[n]
                 input_list[n] = el
-                input_list[i] = b
         n += 1
 
 
