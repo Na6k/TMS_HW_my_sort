@@ -8,6 +8,8 @@ def sorting(input_list):
             if el > input_list[n]:
                 input_list[i] = input_list[n]
                 input_list[n] = el
+            else:
+                continue    
         n += 1
 
 
